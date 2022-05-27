@@ -22,6 +22,7 @@ function _drawList() {
 export class ListsController {
     constructor() {
         console.log("list loaded")
+        ProxyState.on('lists', _drawList)
         _drawList()
     }
 
