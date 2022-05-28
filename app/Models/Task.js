@@ -12,7 +12,7 @@ export class Tasks {
     }
 
 
-    get Template {
+    get Template() {
         return `
          <input id="btn-check" type="checkbox">
             <label for="btn-check">Bread</label>
